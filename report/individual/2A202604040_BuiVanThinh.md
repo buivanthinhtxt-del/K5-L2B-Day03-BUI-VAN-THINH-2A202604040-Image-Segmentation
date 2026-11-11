@@ -6,7 +6,7 @@
 - Mã học viên theo lớp: 2A202604040
 - Lớp: K5-L2B
 - Ngày / CVAT local: 11/11/2026 - 12/11/2026 / CVAT local 2.x
-- Công cụ đã dùng: CVAT local (Brush, Polygon, Eraser) kết hợp AI assistance (YOLOv8-seg)
+- Công cụ đã dùng: CVAT local (Brush, Polygon, Eraser)
 
 Mã học viên là mã lớp cấp; không cần ghi họ tên trong report nếu kênh LMS đã nhận diện bạn. Chỉ ghi công cụ thật sự đã dùng; không có SAM vẫn làm bài bình thường.
 
@@ -35,7 +35,7 @@ Chọn object đầu tiên bạn tự vẽ ở `medium_instance`, trước khi x
 
 - Ảnh, vị trí và object Medium đầu tiên tự vẽ: Ảnh `000000181542.jpg`, chiếc xe taxi màu vàng nằm ở làn giữa ngay sau người đi bộ.
 - Class và quy tắc tôi dùng để chọn biên: Class `car`. Dùng công cụ Brush bo viền bám sát theo mép thân xe, gương chiếu hậu và lốp xe tiếp xúc mặt đường; loại bỏ phần bóng đen đổ trên mặt đường bên dưới gầm xe.
-- Nếu dùng gợi ý sau đó: vùng gợi ý sai/đúng, hành động sửa/giữ và lý do: Ở các đối tượng sau khi dùng AI hỗ trợ, gợi ý thường bị lỗi ăn lấn bóng đen gầm xe xuống mặt đường và gộp dính 2 xe sát nhau thành 1. Tôi đã dùng công cụ Eraser/Brush để gọt lại mép thân xe và tách rời từng instance độc lập.
+- Nếu dùng gợi ý sau đó: vùng gợi ý sai/đúng, hành động sửa/giữ và lý do: không dùng gợi ý tự động, toàn bộ các đối tượng đều tự vẽ bằng Brush/Polygon và dùng Eraser gọt biên để đảm bảo tách biệt từng instance.
 - Nếu không dùng gợi ý: không áp dụng.
 
 ## 3. Một lỗi tôi tìm thấy và sửa
