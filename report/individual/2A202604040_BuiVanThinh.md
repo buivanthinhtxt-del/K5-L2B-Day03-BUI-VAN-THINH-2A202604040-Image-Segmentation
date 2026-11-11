@@ -2,7 +2,9 @@
 
 **Cách dùng:** Thay mọi dấu `…` bằng bài làm thật của bạn trước khi nộp link fork trên [LMS](https://aithucchien.vinuni.edu.vn). Giữ nguyên bốn mục và bảng để coach đọc nhanh. Viết ngắn, cụ thể theo ảnh/vùng; không cần thuật ngữ chuyên sâu.
 
+- Họ và tên: Bùi Văn Thịnh
 - Mã học viên theo lớp: 2A202604040
+- Lớp: K5-L2B
 - Ngày / CVAT local: 11/11/2026 - 12/11/2026 / CVAT local 2.x
 - Công cụ đã dùng: CVAT local (Brush, Polygon, Eraser) kết hợp AI assistance (YOLOv8-seg)
 
